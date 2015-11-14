@@ -1,14 +1,56 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: 1514
+author :
+  name : Pepi
+  email : quincecatorce@gmail.com
+  # github : username
+  # twitter : username
+  # feedburner : feedname
 
-# Build settings
-markdown: kramdown
+bootswatch-theme: yeti
+paginate: 5
+paginate_path: /blog/page:num/
+
+production_url : http://quincecatorce.github.io
+# production_url: "http://quincecatorce.com"
+
+JB :
+  version : 0.3.0
+  BASE_PATH : false
+  ASSET_PATH : false
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+  # comments :
+  #   provider : disqus
+  #   disqus :
+  #     short_name : quincecatorce
+  #   livefyre :
+  #     site_id : 123
+  #   intensedebate :
+  #     account : 123abc
+  #   facebook :
+  #     appid : 123
+  #     num_posts: 5
+  #     width: 580
+  #     colorscheme: light
+
+  # analytics :
+  #   provider : google
+  #   google :
+  #       tracking_id : 'UA-***'
+  #   googleUA :
+  #       tracking_id : 'UA-***'
+  #       property_name : 'PROPERTY NAME'
+  #   getclicky :
+  #     site_id : 
+  #   mixpanel :
+  #       token : '_MIXPANEL_TOKEN_'
+  #   piwik :
+  #       baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+  #       idsite : '1'                   # the id of the site on Piwik
+
+  sharing :
+    provider : false
